@@ -5,7 +5,7 @@ This project is divided into two parts:
 - link-redirector: Handle redirects.
 
 ## Installation
-> Install and run both
+> Install and start both locally
 
 Clone repository.
 ```
