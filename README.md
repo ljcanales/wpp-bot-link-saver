@@ -1,8 +1,10 @@
 # wpp-bot-link-saver
 
 This project is divided into two parts:
-- whatsapp-bot: Handles the interaction by messages.
-- link-redirector: Handle redirects.
+- whatsapp-bot: Handles the interaction by messages. Updates data base.
+- link-redirector: Handle redirects. Reads from data base.
+
+It is planned to be the same database for both parts.
 
 ## Installation
 > Install and start both locally
@@ -16,6 +18,8 @@ Install dependencies.
 ```
 npm run bootstrap
 ```
+
+Edit `config.js` in both projects.
 
 Start
 ```
