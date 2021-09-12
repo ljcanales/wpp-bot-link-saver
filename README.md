@@ -1,8 +1,8 @@
 # wpp-bot-link-saver
 
 This project is divided into two parts:
-- whatsapp-bot: Handles the interaction by messages. Updates data base.
-- link-redirector: Handle redirects. Reads from data base.
+- [whatsapp-bot](https://github.com/ljcanales/wpp-bot-link-saver/tree/main/packages/whatsapp-bot): Handles the interaction by messages. Updates data base.
+- [link-redirector](https://github.com/ljcanales/wpp-bot-link-saver/tree/main/packages/link-redirector): Handle redirects. Reads from data base.
 
 It is planned to be the same database for both projects.
 
