@@ -4,7 +4,7 @@ This project is divided into two parts:
 - whatsapp-bot: Handles the interaction by messages. Updates data base.
 - link-redirector: Handle redirects. Reads from data base.
 
-It is planned to be the same database for both parts.
+It is planned to be the same database for both projects.
 
 ## Installation
 > Install and start both locally
