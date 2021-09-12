@@ -1,9 +1,8 @@
+var path = require('path');
+require(path.join(__dirname, 'database'));
+const contactController = require(path.join(__dirname, 'controller', 'contactController'));
+const config = require(path.join(__dirname, 'config'));
 const fs = require('fs');
-const config = require('./config')
-require('./database.js');
-const contactController = require('./controller/contactController');
-
-// WHATSAPP BOT
 const qrcode = require('qrcode-terminal');
 const { Client } = require('whatsapp-web.js');
 
@@ -52,7 +51,6 @@ const createClient = () => {
 
     client.initialize();
 }
-
 
 startListening = () => {
     /**

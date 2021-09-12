@@ -1,18 +1,13 @@
 {
-  "name": "link-wpp-bot",
+  "name": "wpp-bot-link-saver",
+  "private": true,
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "bootstrap": "lerna bootstrap --hoist",
+    "start": "lerna run start --parallel --stream"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "mongoose": "^5.13.9",
-    "puppeteer": "^10.2.0",
-    "qrcode-terminal": "^0.12.0",
-    "whatsapp-web.js": "^1.14.1"
+  "devDependencies": {
+    "lerna": "^4.0.0"
   }
 }
